@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bg-yellow{
+  background-color: #f9b628;
+}
+.fixed-top{
+  width: 83%;
+  margin: auto;
+}
+.footer{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  color: #fff!important;
+  font-weight: bold;
+  text-align: center;
+  width: 83%;
+  margin: auto;
+}
+.btn_Add{
+  color: #f5c20b;
+  box-shadow: 0px 1px 1px 1px lavenderblush;
+  padding: 0px;
+}
+.btn_Add:hover{
+  border: 1px solid #f5c20b;
+  color: #f5c20b;
+}
+.float-right{
+  float: right!important;
+}
+.custom-card .card-body{
+  padding:0px!important;
+  /* box-shadow: 2px 2px 2px lightgrey; */
+}
+.custom-card .card-header{
+  padding:0px!important;
+  background-color:#fff!important;
+  border-bottom:none!important;
+}
+.bold{
+  font-weight: bold;
+}
+.card-header p,
+.card-text p{
+  margin-bottom:0px!important;
+  padding: 8px;
+}
+.custom-card .card-footer{
+  padding:0px!important;
+  background-color:#fff!important;
+  border-top:none!important;
+  padding: 10px;
+}
+
+.btn_delete, .btn_edit{
+  box-shadow: 0px 1px 1px 1px lavenderblush;
+  padding: 0px;
+  outline: none!important;
+}
+.btn_delete{  
+  color: #ca0909!important;  
+}
+.btn_delete:hover{
+  border: 1px solid #ca0909;
+  color: #ca0909!important;
+}
+
+.card-footer .btn-sm{
+  margin: 5px;
+}
+.scrollCard{
+  height: 400px;
+  overflow-y: auto;
+  padding-bottom: 50px!important;
+}
+.btn_edit:hover{
+  color: #216db4;
+  border: .5px solid #216db4;
+}
+.btn_edit{
+  color: #216db4!important;
+}
+.MuiButton-root{
+  min-width: 30px!important;
+}
+.MuiSvgIcon-root{
+  font-size: 16px!important;
+}
+.show{
+  display: block!important;
+}
+.hide{
+  display: none!important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .fixed-top{
+      width: 100%!important;
+    }
+    .footer{
+      width: 100%!important;
+    }
+}
